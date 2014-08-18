@@ -13,7 +13,6 @@ else
     apt-get -y update
     apt-get -y upgrade
     apt-get install -y sendmail
-    mv /usr/bin/ruby /usr/bin/ruby_old
     sudo touch /tmp/install_done
 fi
 
